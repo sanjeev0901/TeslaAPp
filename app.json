@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Tesla",
+    "slug": "TeslaApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "splash": {
+      "image": "./assets/logo.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.testuser.TeslaApp",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.testuser.TeslaApp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
